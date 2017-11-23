@@ -7,4 +7,14 @@
 	<catalog_category_view>
 		<remove name="right.poll" />
 	</catalog_category_view>
+	<default>
+		<reference name="product.info">
+		<reference name="head">
+			<action method="addItem">
+				<type>skin_css</type>
+				<name>css/my.css</name>
+			</action>
+		</reference>
+		</reference>
+	</default>
 </layout>
