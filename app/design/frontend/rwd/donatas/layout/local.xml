@@ -3,4 +3,8 @@
 	<reference name="footerBlock">
 		<block type="core/template" name="footerBlock" template="../template/page/html/footer.phtml"/>
 	</reference>
+
+	<catalog_category_view>
+		<remove name="right.poll" />
+	</catalog_category_view>
 </layout>
