@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Instagram_memes>
+			<version>0.1.0</version>
+		</Instagram_memes>
+	</modules>
+	<global>
+		<blocks>
+			<instagram>
+				<class>Instagram_Memes_Block</class>
+			</instagram>
+		</blocks>
+		<models>
+			<instagram>
+				<class>Instagram_Memes_Model</class>
+			</instagram>
+		</models>
+		<helpers>
+			<instagram>
+				<class>Instagram_Memes_Helper</class>
+			</instagram>
+		</helpers>
+	</global>
+</config>

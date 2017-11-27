@@ -17,4 +17,10 @@
 		</reference>
 		</reference>
 	</default>
+
+	<cms_index_index>
+		<reference name="right">
+			<block type="instagram/block" name="footer_text" template="../template/instagram.phtml" before="-"/>
+		</reference>
+	</cms_index_index>
 </layout>
