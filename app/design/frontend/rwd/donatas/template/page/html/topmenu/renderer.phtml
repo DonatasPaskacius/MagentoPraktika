@@ -61,8 +61,6 @@ foreach ($children as $child) {
 
      if (!empty($_hasChildren)) {
         $html .= '<ul class="level'. $childLevel .'">';
-        $html .=     '<li class="level'. $nextChildLevel .' view-all">';
-        $html .=     '</li>';
         $html .=     $this->render($child, $childrenWrapClass);
         $html .= '</ul>';
     }
