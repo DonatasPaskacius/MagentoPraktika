@@ -22,4 +22,22 @@
 			</instagram>
 		</helpers>
 	</global>
+	<frontend>
+        <routers>
+            <instagram>
+                <use>standard</use>
+                <args>
+                    <module>Instagram_Memes</module>
+                    <frontName>instagram</frontName>
+                </args>
+            </instagram>
+        </routers>
+        <layout>
+            <updates>
+                <instagram>
+                    <file>instagram.xml</file>
+                </instagram>
+            </updates>
+        </layout>
+    </frontend>
 </config>
