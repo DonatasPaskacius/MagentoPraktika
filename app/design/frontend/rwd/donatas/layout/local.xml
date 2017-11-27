@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
-	<reference name="footerBlock">
-		<block type="core/template" name="footerBlock" template="../template/page/html/footer.phtml"/>
-	</reference>
+	<customer_logged_in>
+		<reference name="footer">
+			<block type="core/template" before="-" name="donatas" template="../template/template.phtml"/>
+		</reference>
+	</customer_logged_in>
 
 	<catalog_category_view>
 		<remove name="right.poll" />
@@ -17,6 +19,4 @@
 		</reference>
 		</reference>
 	</default>
-
-
 </layout>
